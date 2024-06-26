@@ -18,9 +18,19 @@ I'm just starting my journey in IT and want to become a professional in the fiel
 ## Code example:
 **Description of the task on Codewars:** _In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?_
 ```
-def make_negative( number ):
+def make_negative(number):
     if number <= 0:
         return number;
     if number > 0:
         return (0 - number)
 ```
+
+## Education and Courses:
+* ***Higher education - specialist (jurisprudence),*** Nizhny Novgorod State University named after N.I. Lobachevsky;
+* ***Higher education - master (biology),*** Nizhny Novgorod State University named after N.I. Lobachevsky;
+* ["Generation Python" - a course for beginners](https://stepik.org/course/58852/syllabus) - completed;
+* ["JavaScript/Front-End Course Pre-school"](https://rs.school/courses/javascript-preschool-ru) - in progress
+
+## Languages:
+* Russian - native;
+* English - A1 Beginner/A2 Elementary (according to the online-test [EFSET Quick Check](https://efset.org))
