@@ -1,10 +1,26 @@
 # Daria Bochatskaia
 
 ## Contact information:
-**Phone:** +7 952 772 3647
-**E-mail:** skitten11@gmail.com
-**Telegram:** @skitten11
-**GitHub:** @skitten1
+**Phone:** +7 952 772 3647  
+**E-mail:** skitten11@gmail.com  
+**Telegram:** @skitten11  
+**GitHub:** @skitten1  
 
 ## Briefly about myself:
-I'm just starting my journey in IT and want to become a professional in the field of front-end development. At the moment, I already have two higher educations, I am a good communicator and have extensive experience working in a team. I am constantly engaged in self-study and advanced training, also because I am interested in learning something new.
+I'm just starting my journey in IT and want to become a professional in the field of Front-End Development. At the moment, I already have two higher educations, I am a good communicator and have extensive experience working in a team. I am constantly engaged in self-study and advanced training, also because I am interested in learning something new.
+
+## Skills and Proficiency:
+* HTML, CSS (basic);
+* Python (basic);
+* Git, GitHub;
+* VS Code
+
+## Code example:
+**Description of the task on Codewars:** _In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?_
+```
+def make_negative( number ):
+    if number <= 0:
+        return number;
+    if number > 0:
+        return (0 - number)
+```
