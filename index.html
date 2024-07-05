@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSSchool CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
@@ -12,88 +15,95 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>Contacts</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Education</li>
-                <li>Languages</li>
-                <li>Progects</li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <ul class="list-nav">
+                    <li><a href="#contacts">Contacts</li>
+                    <li><a href="#skills">Skills</li>
+                    <li><a href="#languages">Languages</li>
+                    <li><a href="#about">About</li>
+                    <li><a href="#education">Education</li>
+                    <li><a href="#code">Code</li>
+                    <li><a href="#projects">Projects</li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="column" class="left-column">
-            <figure class="avatar">
-                <img src="assets\img\IMG_20240704_144324_860.jpg" alt="My foto">
-            </figure>
-            <div class="contact">
-                <h2 class="title-two">Contact information:</h2>
-                <ul>
-                    <li>Pfone: + 7 952 772 36 47</li>
-                    <li>E-mail: <a href="mailto:skitten11@gmail.com">skitten11@gmail.com</a></li>
-                    <li>Telegram: <a href="https://t.me/skitten11">t.me/skitten11</a></li>
-                    <li>GitHub: <a href="https://github.com/skitten1">github.com/skitten1</a></li>
-                </ul>
-            </div>
-            <div>
-                <h2 class="title-two">Skills:</h2>
-                <ul>
-                    <li>HTML, CSS (basic)</li>
-                    <li>Python (basic)</li>
-                    <li>Git, GitHub</li>
-                    <li>VS Code</li>
-                </ul>
-            </div>
-            <div>
-                <h2 class="title-two">Languages:</h2>
-                <ul>
-                    <li>Russian - native</li>
-                    <li>English - A1 Beginner/A2 Elementary (according to the online-test <a href="https://efset.org">EFSET Quick check</a>)</li>
-                </ul>
-            </div>
-        </section>
-        <section class="column">
-            <h1 class="title">Daria Bochatskaya</h1>
-            <div>
-                <h2 class="title-two">Briefly about myself:</h2>
-                <p>I'm just starting my journey in IT and want to become a professional in the field of Front-End Development. At the moment, I already have two higher educations, I am a good communicator and have extensive experience working in a team. I am constantly engaged in self-study and advanced training, also because I am interested in learning something new.</p>
-            </div>
-            <div>
-                <h2 class="title-two">Education and Courses:</h2>
-                <ul>
-                    <li>Higher education - specialist (jurisprudence), Nizhny Novgorod State University named after N.I. Lobachevsky</li>
-                    <li>Higher education - master (biology), Nizhny Novgorod State University named after N.I. Lobachevsky;</li>
-                    <li><a href="https://stepik.org/course/58852/promo#toc">"Generation Python" - the course for beginners</a> - completed</li>
-                    <li><a href="https://rs.school/courses/javascript-preschool-ru">"JavaScript/Front-End Course Pre-school"</a> - in progress</li>
-                </ul>
-            </div>
-            <div>
-                <h2 class="title-two">Code example:</h2>
-                <p>Description of the task on Codewars: In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?</p>
-                <pre>
-                    <code>
+    <main class="column">
+            <section class="left-column">
+                <div class="box">
+                    <figure>
+                        <img class="avatar" src="./assets/img/IMG_20240704_144324_860.jpg" alt="My foto" width="240" height="240">
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2 class="title-two" id="contacts">Contact information:</h2>
+                    <ul class="list">
+                        <li>Pfone: + 7 952 772 36 47</li>
+                        <li>E-mail: <a href="mailto:skitten11@gmail.com">skitten11@gmail.com</a></li>
+                        <li>Telegram: <a href="https://t.me/skitten11">t.me/skitten11</a></li>
+                        <li>GitHub: <a href="https://github.com/skitten1">github.com/skitten1</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h2 class="title-two" id="skills">Skills:</h2>
+                    <ul class="list">
+                        <li>HTML, CSS (basic)</li>
+                        <li>Python (basic)</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h2 class="title-two" id="languages">Languages:</h2>
+                    <ul class="list">
+                        <li>Russian - native</li>
+                        <li>English - A1 Beginner/A2 Elementary</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="right-column">
+                <h1 class="title">Daria Bochatskaya</h1>
+                <div class="box">
+                    <h2 class="title-two" id="about">Briefly about myself:</h2>
+                    <p>I'm just starting my journey in IT and want to become a professional in the field of Front-End Development. At the moment, I already have two higher educations, I am a good communicator and have extensive experience working in a team. I am constantly engaged in self-study and advanced training, also because I am interested in learning something new.</p>
+                </div>
+                <div class="box">
+                    <h2 class="title-two" id="education">Education and Courses:</h2>
+                    <ul class="list">
+                        <li><a href="https://stepik.org/course/58852/promo#toc">"Generation Python" - the course for beginners</a> - completed</li>
+                        <li><a href="https://rs.school/courses/javascript-preschool-ru">"JavaScript/Front-End Course Pre-school"</a> - in progress</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h2 class="title-two" id="code">Code example:</h2>
+                    <p>Description of the task on Codewars: In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?</p>
+                    <pre>
+                        <code>
                         def make_negative(number):
                             if number &lt;= 0:
                                 return number;
                             if number &gt; 0:
                                 return (0 - number)
-                    </code>
-                </pre>
-            </div>
-            <div>
-                <h2 class="title-two">Progects:</h2>
-                <p>For now, I'm just learning, and I don't have any finished projects yet, other than this CV. What you see now is my first project.To my reviewer - have a nice day&#10084;</p>
-            </div>
+                        </code>
+                    </pre>
+                </div>
+                <div class="box">
+                    <h2 class="title-two" id="projects">Projects:</h2>
+                    <p>For now, I'm just learning, and I don't have any finished projects yet, other than this CV. What you see now is my first project.To my reviewer - have a nice day&#10084;</p>
+                </div>
+            </section>
     </main>
     <footer>
-        <div>
-            <p>Tried for you:</p><a href="https://github.com/skitten1">Daria Bochatskaya, 2024</a>
-            <a href="https://rs.school/courses/javascript-preschool-ru">
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fc%2Frollingscopesschool&psig=AOvVaw25hpY8r5LLrtn-m-Yf8-cx&ust=1720188362361000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNj3mZzHjYcDFQAAAAAdAAAAABAE" alt="RS School logo">
-            </a>
-        </div>
+        <ul class="list-footer">
+            <li><a href="https://github.com/skitten1">
+                <img src="./assets/img/githublogo.png" alt="github logo" width="30" height="30" class="github-logo">
+            </a>Visit my Github</li>
+            <li style="font-weight: bold;">2024</li>
+            <li><a href="https://rs.school/courses/javascript-preschool-ru">
+                <img src="./assets/img/rslogo.png" alt="RS School logo" class="logo">
+            </a></li>
+        </ul>
     </footer>
 </body>
 </html>

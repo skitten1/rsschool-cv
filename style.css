@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    width: 1024px;
+    min-height: 100vh;
+    margin: auto;
+    padding: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #F5FFFA;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 30px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.box {
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    text-align: left;
+}
+
+.avatar {
+    background-size: cover;
+    background-position: left;
+    border: 10px solid #17806D;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.list-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #AAF0D1;
+    line-height: 40px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.left-column {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #AAF0D1;
+}
+
+.right-column {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F5FFFA;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #F5FFFA;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background-size: cover;
+    width: 80px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.github-logo {
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.list-footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #AAF0D1;
+    line-height: 40px;
+}
